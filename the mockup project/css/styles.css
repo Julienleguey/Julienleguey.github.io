@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+.filters {
+  display: flex;
+}
+
+#canvas-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#canvas-section div {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin: 20px;
+}
+
+canvas {
+  border: 1px solid black;
+  width: 310px;
+  height: 552px;
+}
